@@ -1,32 +1,118 @@
+html {
+  background: #4A90E2;
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+label, input {
+  cursor: pointer;
+}
+
+
+
+
 .App {
-  text-align: center;
+  padding: 40px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.Assessment-Card {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.6);
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 20px;
+}
+  .Assessment-Card .Button-Box {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  .Assessment-Card button {
+    display: inline-block;
+    margin-top: 1.2em;
+    padding: 1em;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    background: #4A90E2;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.3);
+    transition: color 0.6s, box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
   }
+
+
+.Designer-Type {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #4A90E2;
+  color: #4A90E2; 
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  overflow: hidden;
+  margin: .8em auto;
+  border-radius: 4px;
+  box-sizing: border-box;
+  user-select: none;
+  width: 100%;
+}
+  .Designer-Type > input {
+    display: none;
+  }
+  .Designer-Type > input + label {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .Designer-Type > input:checked + label {
+    background: #4A90E2;
+    color: #fff;
+  }
+
+
+
+.Assessment-Form .item {
+  margin-bottom: 40px;
+}
+.Assessment-Form .options {
+  border-radius: 800px;
+  background: #f7f7f7;
+}
+  .Assessment-Form .options > input {
+    display: none;
+  }
+    .Assessment-Form .options > input + label {
+      display: inline-block;
+      padding: 8px 0;
+      width: 33%;
+      text-align: center;
+      border-radius: 800px;
+    }
+      .Assessment-Form .options > input + label:hover {
+        background: #dceaf9;
+      }
+      .Assessment-Form .options > input + label:nth-child(2) {
+        width: 34%;
+      }
+      .Assessment-Form .options > input:checked + label {
+        background: #4A90E2;
+        color: #fff;
+      }
+
+
+
+
+.Assessment-Diagram {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.6);
+  max-width: 420px;
+  margin: 40px auto 0;
+  padding: 20px;
 }
