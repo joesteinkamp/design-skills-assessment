@@ -20,7 +20,7 @@ class App extends Component {
       valueNin: 0,
       valueTen: 0,
       data: {
-        labels: ['Information Architecture', 'Visual Design', 'Interaction Design', 'Toolset', 'Technical Literacy', 'Business Literacy', 'Service Design', 'Storytelling', 'Human Factors', 'Research'],
+        labels: ['Information Architecture', 'Visual Design', 'Interaction Design', 'Design Toolset', 'Technical Literacy', 'Business Literacy', 'Service Design', 'Storytelling', 'Human Factors', 'Research'],
         datasets: [
           {
             label: 'My First dataset',
@@ -83,7 +83,7 @@ class App extends Component {
       this.setState({
         diagramVisible: false,
         data: {
-          labels: ['Information Architecture', 'Visual Design', 'Interaction Design', 'Toolset', 'Technical Literacy', 'Business Literacy', 'Service Design', 'Storytelling', 'Human Factors', 'Research']
+          labels: ['Information Architecture', 'Visual Design', 'Interaction Design', 'Design Toolset', 'Technical Literacy', 'Business Literacy', 'Service Design', 'Storytelling', 'Human Factors', 'Research']
         }
       });
     }
