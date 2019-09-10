@@ -20,7 +20,7 @@ class App extends Component {
       valueNin: 0,
       valueTen: 0,
       data: {
-        labels: ['Information Architecture', 'Visual Design', 'Interaction Design', 'Design Toolset', 'Technical Literacy', 'Business Literacy', 'Service Design', 'Storytelling', 'Human Factors', 'Research'],
+        labels: ['Information Architecture', 'Visual Design', 'Interaction Design', 'Storytelling', 'Design Toolset', 'Technical Literacy', 'Business Literacy', 'Service Design', 'Human Factors', 'Research'],
         datasets: [
           {
             label: 'My First dataset',
@@ -83,7 +83,7 @@ class App extends Component {
       this.setState({
         diagramVisible: false,
         data: {
-          labels: ['Information Architecture', 'Visual Design', 'Interaction Design', 'Design Toolset', 'Technical Literacy', 'Business Literacy', 'Service Design', 'Storytelling', 'Human Factors', 'Research']
+          labels: ['Information Architecture', 'Visual Design', 'Interaction Design', 'Storytelling', 'Design Toolset', 'Technical Literacy', 'Business Literacy', 'Service Design', 'Human Factors', 'Research']
         }
       });
     }
@@ -91,7 +91,7 @@ class App extends Component {
       this.setState({
         diagramVisible: false,
         data: {
-          labels: ['Information Design', 'Graphic Design', 'Motion Design', 'Brand Identity Design', 'Content Strategy', 'Business Literacy', 'Service Design', 'Storytelling', 'Human Factors', 'Research']
+          labels: ['Information Design', 'Graphic Design', 'Motion Design', 'Storytelling', 'Brand Identity Design', 'Content Strategy', 'Business Literacy', 'Service Design', 'Human Factors', 'Research']
         }
       });
     }
@@ -99,7 +99,7 @@ class App extends Component {
       this.setState({
         diagramVisible: false,
         data: {
-          labels: ['Information Design', 'Graphic Design', 'Motion Design', 'Brand Identity Design', 'Content Strategy', 'Business Literacy', 'Service Design', 'Storytelling', 'Human Factors', 'Research']
+          labels: ['Information Design', 'Graphic Design', 'Motion Design', 'Storytelling', 'Brand Identity Design', 'Content Strategy', 'Business Literacy', 'Service Design', 'Human Factors', 'Research']
         }
       });
     }
