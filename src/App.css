@@ -65,10 +65,11 @@ label, input {
     display: none;
   }
   .Designer-Type > input + label {
-    display: inline-block;
+    display: table-cell;
     width: 50%;
     text-align: center;
     padding: 10px 0;
+    vertical-align: middle;
   }
   .Designer-Type > input:checked + label {
     background: #4A90E2;
