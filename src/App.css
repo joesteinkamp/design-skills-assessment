@@ -48,7 +48,7 @@ label, input {
 
 .Designer-Type {
   position: relative;
-  display: inline-block;
+  display: table;
   border: 1px solid #4A90E2;
   color: #4A90E2; 
   font-style: normal;
@@ -60,6 +60,7 @@ label, input {
   box-sizing: border-box;
   user-select: none;
   width: 100%;
+  margin: 0 0 20px;
 }
   .Designer-Type > input {
     display: none;
